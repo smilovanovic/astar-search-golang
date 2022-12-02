@@ -138,7 +138,6 @@ func astar(n *[]string) Result {
 }
 
 func main() {
-	defer track(runningtime())
-	niz := strings.Split("gbrgbbrggbrr", "")
+	niz := strings.Split("grbrgbbrggbr", "")
 	fmt.Println(astar(&niz))
 }
